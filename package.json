@@ -45,12 +45,12 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/OWNER/dsh-startup-blade.git"
+    "url": "git+https://github.com/2154036609-ux/dsh-startup-blade.git"
   },
-  "homepage": "https://github.com/OWNER/dsh-startup-blade#readme",
+  "homepage": "https://github.com/2154036609-ux/dsh-startup-blade#readme",
   "bugs": {
-    "url": "https://github.com/OWNER/dsh-startup-blade/issues"
+    "url": "https://github.com/2154036609-ux/dsh-startup-blade/issues"
   },
   "license": "MIT",
-  "author": "OWNER"
+  "author": "2154036609-ux"
 }

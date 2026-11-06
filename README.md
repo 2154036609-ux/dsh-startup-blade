@@ -27,7 +27,7 @@ dsh plugin --profile web add dsh-startup-blade
 浠?GitHub 瑁咃細
 
 ```sh
-dsh plugin --profile web add github:OWNER/dsh-startup-blade
+dsh plugin --profile web add github:2154036609-ux/dsh-startup-blade
 ```
 
 ## 璁╁畠瀹氭牸鍦ㄣ€屼綘鑷繁閭ｄ竴甯с€?

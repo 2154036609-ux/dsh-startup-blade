@@ -1,5 +1,5 @@
-url: https://github.com/OWNER/dsh-startup-blade
-name: OWNER/dsh-startup-blade
+url: https://github.com/2154036609-ux/dsh-startup-blade
+name: 2154036609-ux/dsh-startup-blade
 category: ui
 description:
   en: 'Startup splash for DeepSeek Harness. A dark scene opens, a blade light sweeps along the blade axis from the guard to the tip, the whole frame rises out of shadow, snow drifts, and the splash freezes on the final frame before fading into the UI. Ships no artwork: drop your own screenshot into $DSH_HOME/startup-blade and pick one of three modes (layered dark/lit art, a still frame, or an mp4/webm clip). Zero runtime dependencies, no build step, one-shot per app launch, click to skip.'

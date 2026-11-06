@@ -16,7 +16,7 @@
    - 可以不传：`dsh-startup-blade-1.0.0.tgz`、`market/`、`scripts/`、`PUBLISHING.md`
 3. **加话题**：仓库页右上 **⚙ Topics** → 填 `dsh-plugin` → 保存。（市场会自动索引）
 4. **改占位符**：GitHub 网页里把 `package.json` 的 `repository` / `homepage` / `bugs` 和 `LICENSE` 里的
-   `OWNER` 改成你的用户名（网页编辑器就能改，Edit → 提交）。
+   `2154036609-ux` 改成你的用户名（网页编辑器就能改，Edit → 提交）。
 5. **提交收录**：打开 <https://www.dsh.so/zh/submit/> → 在输入框粘贴 `你的用户名/dsh-startup-blade`
    → 点「开始检查」→ 等它跑完（拉取 + 校验 + 安全扫描）→ 通过后点「提交到 dsh.so」。
 6. 审核合并后，市场里就能搜到；安装命令形如
@@ -63,6 +63,6 @@ cd "$env:USERPROFILE\Desktop\dsh-startup-blade"
 ## 另一条老路径（可选）
 
 手动给 [awesome-dsh-plugin](https://github.com/awesome-dsh-plugin/awesome-dsh-plugin) 提收录 PR，
-条目文件已按格式写好：`market/OWNER__dsh-startup-blade.yml`（需把 `OWNER` 换成你的用户名，
+条目文件已按格式写好：`market/2154036609-ux__dsh-startup-blade.yml`（需把 `2154036609-ux` 换成你的用户名，
 文件名同步改成 `<owner>__dsh-startup-blade.yml`）。这条路要求仓库创建满 1 天才过 CI，
 而 dsh.so 那条没有这个限制 —— 优先走 dsh.so。
