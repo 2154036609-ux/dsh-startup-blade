@@ -1,0 +1,56 @@
+{
+  "name": "dsh-startup-blade",
+  "version": "1.0.0",
+  "description": "Blade-draw startup animation for DeepSeek Harness: a blade is unsheathed, slashes the black screen open, and the UI freezes on your current wallpaper frame.",
+  "icon": "./icon.png",
+  "type": "module",
+  "main": "./lib/index.js",
+  "exports": {
+    ".": "./lib/index.js",
+    "./client": "./lib/client.js",
+    "./package.json": "./package.json",
+    "./cordis.patch.yml": "./cordis.patch.yml"
+  },
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    },
+    "client": {
+      "inject": [],
+      "platform": "web",
+      "immediately": true
+    }
+  },
+  "files": [
+    "lib/",
+    "assets/",
+    "docs/",
+    "cordis.patch.yml",
+    "icon.png",
+    "screenshots.json",
+    "README.md",
+    "README.en.md",
+    "LICENSE"
+  ],
+  "keywords": [
+    "dsh",
+    "dsh-plugin",
+    "deepseek-harness",
+    "startup",
+    "splash",
+    "animation",
+    "blade",
+    "katana",
+    "ui"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/OWNER/dsh-startup-blade.git"
+  },
+  "homepage": "https://github.com/OWNER/dsh-startup-blade#readme",
+  "bugs": {
+    "url": "https://github.com/OWNER/dsh-startup-blade/issues"
+  },
+  "license": "MIT",
+  "author": "OWNER"
+}

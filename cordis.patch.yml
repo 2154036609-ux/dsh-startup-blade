@@ -1,0 +1,22 @@
+# ============================================================================
+# dsh-startup-blade 的 bundle patch —— 把「拔刀启动动画」挂进 DSH 配置树。
+#
+# 这个文件是什么：bundle 的挂载声明。DSH 启动时按 bundle 层栈把每个插件的
+#   patch 叠起来组成配置树，本文件就是本插件这一层的内容。
+#
+# 工作原理：
+#   - insert：向配置树里添加新的插件行（entry）
+#   - id 是行标识（patch 覆盖时按它定位），name 是插件模块名
+#   - name: 'dsh-startup-blade' 解析到包入口 lib/index.js（宿主半边）
+#   - 因为 package.json 声明了 dsh.client，DSH 的模块系统同时会把该包扫描为
+#     浏览器插件，提供 /plugins/dsh-startup-blade/client.js 给页面
+# ============================================================================
+
+- insert:
+    - id: startup-blade        # 插件行 id（全局唯一，与已装插件不冲突）
+      name: 'dsh-startup-blade' # npm 包全名：解析到 lib/index.js
+      config:
+        enabled: true           # 总开关；false 时页面不播动画、路由只回配置
+        speed: 1                # 播放速度倍率（0.5 ~ 2）
+        hold: 620               # 定格保持时长（ms）
+        accent: '#9fe8ff'       # 刀光主色

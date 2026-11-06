@@ -1,0 +1,6 @@
+url: https://github.com/OWNER/dsh-startup-blade
+name: OWNER/dsh-startup-blade
+category: ui
+description:
+  en: 'Startup splash for DeepSeek Harness. A dark scene opens, a blade light sweeps along the blade axis from the guard to the tip, the whole frame rises out of shadow, snow drifts, and the splash freezes on the final frame before fading into the UI. Ships no artwork: drop your own screenshot into $DSH_HOME/startup-blade and pick one of three modes (layered dark/lit art, a still frame, or an mp4/webm clip). Zero runtime dependencies, no build step, one-shot per app launch, click to skip.'
+  zh: '启动动画：暗场起手，刀光沿刀轴从刀镡扫到刀尖，整幅画面从暗部浮出、落雪飘过，最后定格再淡出。不自带任何美术素材——把自己的截图放进 $DSH_HOME/startup-blade，三种模式任选（分层暗/亮素材、定格图、mp4/webm 片段）。零运行时依赖、无构建步骤，每次启动只播一次，点击可跳过。'
